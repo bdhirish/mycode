@@ -1,1 +1,2 @@
 # mycode
+go lang essentials
