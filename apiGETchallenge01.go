@@ -30,8 +30,8 @@ type SpaceX []struct {
 
 func main() {
         // define our URL (API) as a string
-        url := "https://api.spacexdata.com/v3/capsules"
-
+//        url := "https://api.spacexdata.com/v3/capsules"
+     url :=  go-stare -t "https://api.spacexdata.com/v3/capsules"
         // Build the request
         req, err := http.NewRequest("GET", url, nil)
         if err != nil {
